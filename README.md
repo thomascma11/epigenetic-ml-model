@@ -4,6 +4,13 @@ Includes preprocessing, feature engineering, regression modeling, and evaluation
 
 ---
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ML-Ridge%20Regression-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Domain-Bioinformatics-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+</p>
+
 ## 📌 Overview  
 This project implements a clean, modular ML workflow commonly used in computational biology and bioinformatics research.  
 It follows a full pipeline:
@@ -17,6 +24,30 @@ It follows a full pipeline:
 This project demonstrates skills relevant for **machine learning**, **bioinformatics**, **data science**, and **quantitative research**.
 
 ---
+
+## 🧬 ML Pipeline Workflow
+|
+v
+┌─────────────────────────┐
+│ Preprocessing │
+│ - Remove sparse columns │
+│ - Fill missing values │
+│ - Scale features │
+└─────────────────────────┘
+|
+v
+┌─────────────────────────┐
+│ Ridge Regression │
+│ - Train model │
+│ - Save model + scaler │
+└─────────────────────────┘
+|
+v
+┌─────────────────────────┐
+│ Evaluation │
+│ - MSE, R² │
+│ - Predictions │
+└─────────────────────────┘
 
 ## 📂 Project Structure
 
@@ -79,3 +110,14 @@ Run:
 |--------------------|-------|
 | Mean Squared Error | 0.042 |
 | R² Score           | 0.89  |
+
+## 🔭 Future Improvements
+
+- Add Lasso / ElasticNet for feature selection  
+- Add Random Forest / XGBoost for nonlinear methylation effects  
+- Hyperparameter tuning via GridSearchCV or Optuna  
+- SHAP explainability for CpG significance  
+- PCA/UMAP dimensionality reduction for visualization  
+- Combine methylation with phenotype metadata  
+- Train multi-output models for predicting multiple biomarkers
+
