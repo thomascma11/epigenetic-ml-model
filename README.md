@@ -60,18 +60,22 @@ Reports:
 ## ▶️ How to Run
 
 ### **1. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+Run this in your terminal:
+`pip install -r requirements.txt`
 
 ### **2. Train the model**
-```bash
-python src/train_model.py
-```
+Run:
+`python src/train_model.py`
 
 ### **3. Evaluate the model**
-```bash
-python src/evaluate.py
-```
+Run:
+`python src/evaluate.py`
 
+---
 
+## 📊 Example Output
+
+| Metric              | Value |
+|--------------------|-------|
+| Mean Squared Error | 0.042 |
+| R² Score           | 0.89  |
