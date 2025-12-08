@@ -62,3 +62,16 @@ Reports:
 ### **1. Install dependencies**
 ```bash
 pip install -r requirements.txt
+```
+
+### **2. Train the model**
+```bash
+python src/train_model.py
+```
+
+### **3. Evaluate the model**
+```bash
+python src/evaluate.py
+```
+
+
